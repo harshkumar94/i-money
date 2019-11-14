@@ -1,0 +1,41 @@
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+
+.sidenav a {
+  padding: 16px 6px 6px 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+   /* Same as the width of the sidenav */
+  margin:45px 45px 0px 400px;
+}
+
+.btn-primary {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: right;
+}
